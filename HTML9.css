@@ -4,10 +4,9 @@
   box-sizing: border-box;
 }
 
-
 header {
   height: 50px;
-  background-color: #FF9A4B;
+  background-color: #ff9a4b;
 }
 
 main {
@@ -18,7 +17,7 @@ main {
 
 .step-box {
   width: 300px;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   margin-right: 30px;
   padding: 10px;
   position: relative;
@@ -63,14 +62,31 @@ main {
 
 footer {
   height: 50px;
-  background-color: #AAAAAA;
+  background-color: #aaaaaa;
 }
 
 @media screen and (max-width: 768px) {
   header {
     width: 100%;
   }
-}
+  
+  main {
+    width: 100%;
+    display: block;
+  }
 
+  .step-box {
+    width: 90%;
+    margin:0 auto 20px auto;
+  }
+
+  .step-box:last-child {
+    margin: 0 auto 0 auto;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
 
 
